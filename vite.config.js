@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: "dist",
     assetsDir: "static",
     rollupOptions: {
-      input: "react.html",
+      input: "index.html",
     },
   },
   server: {
