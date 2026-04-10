@@ -14,10 +14,10 @@ import PulsingOrb from "./components/ui/PulsingOrb.jsx";
 import { PROJECTS, NICHES, WHATSAPP_URL } from "./data/projects.js";
 
 const TEAM = [
-  { key: "fede", name: "Federico", role: "Co-Fundador · CEO", desc: "Lidera la visión del producto y el desarrollo. Experto en IA aplicada al software.", img: "/assets/images/team/federico.png" },
-  { key: "juan", name: "Juan", role: "Co-Fundador · Comercial", desc: "Gestiona relaciones con clientes y cierra acuerdos. Cara comercial de Insights.", img: "/assets/images/team/juan.png" },
-  { key: "matias", name: "Matías", role: "VISUAL · IA", desc: "Frontend development, edición de video y dirección visual. Potencia cada workflow creativo con IA.", img: "/assets/images/team/matias.png" },
-  { key: "toledo", name: "Valentín", role: "Desarrollo · IA", desc: "Programador e implementador de todos los productos. Especialista en automatización con IA.", img: "/assets/images/team/valentin.png" },
+  { key: "fede", name: "Federico", role: "Co-Fundador · CEO", desc: "Lidera la visión del producto y el desarrollo. Experto en IA aplicada al software.", img: "assets/images/team/federico.png" },
+  { key: "juan", name: "Juan", role: "Co-Fundador · Comercial", desc: "Gestiona relaciones con clientes y cierra acuerdos. Cara comercial de Insights.", img: "assets/images/team/juan.png" },
+  { key: "matias", name: "Matías", role: "VISUAL · IA", desc: "Frontend development, edición de video y dirección visual. Potencia cada workflow creativo con IA.", img: "assets/images/team/matias.png" },
+  { key: "toledo", name: "Valentín", role: "Desarrollo · IA", desc: "Programador e implementador de todos los productos. Especialista en automatización con IA.", img: "assets/images/team/valentin.png" },
 ];
 
 const TESTIMONIALS = [
@@ -1145,7 +1145,7 @@ export function NosotrosScreen() {
               }}
             >
               <img
-                src="/assets/images/speaker.jpg"
+                src="assets/images/speaker.jpg"
                 alt="Charla en Buenos Aires sobre IA"
                 loading="lazy"
                 style={{ width: "100%", display: "block", objectFit: "cover", aspectRatio: "4/3" }}
